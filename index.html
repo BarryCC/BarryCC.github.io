@@ -1,14 +1,14 @@
 ---
 layout: default
-title: 我的Blog
+title: CC的Blog
 ---
 
-<h2>{{ page.title }}</h2>
-
-<p>最新文章</p>
-
-<ul>
-	{% for post in site.posts %}
-		<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-	{% endfor %}
-</ul>
+<div style="width: 1200px; margin: 0 auto;">
+	<h2>{{ page.title }}</h2>
+	<p style="color:#666666;">我的文章</p>
+	<ul>
+		{% for post in site.posts %}
+			<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+		{% endfor %}
+	</ul>
+</div>
