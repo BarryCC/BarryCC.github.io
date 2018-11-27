@@ -1,2 +1,3 @@
 # CC_blog
-my blog
+
+https://barrycc.github.io/
